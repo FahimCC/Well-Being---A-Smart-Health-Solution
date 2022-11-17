@@ -1,0 +1,47 @@
+h1 {
+	font-weight: bolder;
+	color: #16a085;
+	text-align: center;
+	margin-bottom: 4rem;
+	text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 5rem;
+	letter-spacing: 0.4rem;
+}
+.choose_option {
+	width: 80vw;
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.option {
+	height: 45rem;
+	width: 40vw;
+	padding: 2rem;
+	margin: 3rem;
+	flex: 1 1;
+	border: 0.2rem solid #16a085;
+	box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+	border-radius: 10px;
+}
+.option img {
+	width: 30rem;
+	height: 30rem;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+.option p {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 2rem;
+}
+.option p a {
+	text-decoration: none;
+}

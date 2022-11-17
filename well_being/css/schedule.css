@@ -1,0 +1,58 @@
+.container {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	width: 100%;
+	margin: 0.7rem 0;
+	border-radius: 0.5rem;
+	border: var(--border);
+	font-size: 1.6rem;
+	color: var(--black);
+	text-transform: none;
+	padding: 1rem;
+}
+.btn {
+	width: 100%;
+	margin: auto;
+}
+input[type='textrea'] {
+	height: 10rem;
+}
+
+table {
+	overflow-x: auto;
+	width: 70vw;
+	margin: auto;
+	border: 0.2rem solid var(--green);
+	box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+	border-radius: 5px;
+}
+th,
+td {
+	text-align: left;
+	padding: 16px;
+}
+th {
+	color: var(--green);
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#delete {
+	padding: 1rem;
+	font-size: 1.5rem;
+	border: var(--border);
+	border-radius: 4px;
+}
+#delete:hover {
+	background-color: #ea2027;
+	border-color: #ea2027;
+}
+h2 {
+	text-align: center;
+}

@@ -1,0 +1,62 @@
+h2 {
+	margin-top: 14rem;
+	color: var(--black);
+	padding-bottom: 2rem;
+	font-size: 3rem;
+	text-align: center;
+}
+h3 {
+	margin: 3rem;
+	color: var(--black);
+	padding-bottom: 0rem;
+	font-size: 2rem;
+}
+.container {
+	width: 70vw;
+	margin: 0 auto;
+	margin-bottom: 10rem;
+	height: auto;
+	border: 0.2rem solid var(--green);
+	box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+	border-radius: 5px;
+}
+.info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 3rem;
+}
+.info label {
+	color: var(--black);
+	font-size: 1.3rem;
+	max-width: 49rem;
+}
+.box {
+	flex: 1 1;
+	width: 100%;
+	margin: 0.7rem 0;
+	border-radius: 0.5rem;
+	border: var(--border);
+	font-size: 1.6rem;
+	color: var(--black);
+	text-transform: none;
+	padding: 1rem;
+}
+input,
+select {
+	min-width: 45rem;
+}
+input[type='submit'] {
+	margin: 3rem;
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: 50%;
+	}
+	input,
+	select {
+		min-width: 2 5rem;
+	}
+}
